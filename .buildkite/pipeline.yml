@@ -1,0 +1,10 @@
+steps:
+  - label: ":go: Run tests:"
+    command: echo $$BUILDKITE_PLUGIN_VAULT_SECRETS_
+    plugins:
+      - buildkite-plugins/vault-secrets#v0.1.1:
+          server: localhost
+          path: buildkite/agent
+          role: buildkite-agent
+          secrets:
+            - test-analytics

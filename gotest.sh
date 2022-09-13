@@ -2,16 +2,6 @@
 
 set -u
 
-# BUILDKITE_PLUGIN_VAULT_SECRETS_ROLE_ID="buildkite-agent"
-# BUILDKITE_PLUGIN_VAULT_SECRETS_SECRET_ID=$(vault write -field=secret_id -force auth/approle/role/buildkite-agent/secret-id)
-
-
-# token=$(vault write -field=token auth/approle/login \
-#      role_id="$BUILDKITE_PLUGIN_VAULT_SECRETS_ROLE_ID" \
-#      secrets_id= "$BUILDKITE_PLUGIN_VAULT_SECRETS_SECRET_ID")
-
-# echo $token
-
 gotestsum --junitfile junit.xml .
 
 curl \

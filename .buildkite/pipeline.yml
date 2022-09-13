@@ -7,6 +7,5 @@ steps:
           path: buildkite/agent
           auth-method: approle
           role-id: buildkite-agent
-          secret-id: "$$VAULT_SECRET_ID"
           secrets:
             - test-analytics

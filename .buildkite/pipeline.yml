@@ -1,5 +1,5 @@
 steps:
-  - label: ":go: :test_tube:" Run tests"
+  - label: ":go: :test_tube: Run tests"
     command: "./gotest.sh"
     # plugins:
     #   - buildkite-plugins/vault-secrets#update-auth:

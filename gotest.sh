@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -u
-
+BUILDKITE_ANALYTICS_TOKEN="3jJKUw7ARg5pGmcmSbAHW59r"
 
 gotestsum --junitfile junit.xml .
 

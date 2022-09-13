@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" time="0.083705">
+	<testsuite tests="1" failures="0" time="0.000000" name="sandbox" timestamp="2022-09-13T12:01:26-06:00">
+		<properties>
+			<property name="go.version" value="go1.17.5 darwin/arm64"></property>
+		</properties>
+		<testcase classname="sandbox" name="Test_main" time="0.000000"></testcase>
+	</testsuite>
+</testsuites>

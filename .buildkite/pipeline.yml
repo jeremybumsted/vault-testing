@@ -5,6 +5,7 @@ steps:
       - buildkite-plugins/vault-secrets#update-vault-login:
           server: localhost
           path: buildkite/agent
+          auth-method: approle
           role-id: buildkite-agent
           secret-id: "$$VAULT_SECRET_ID"
           secrets:

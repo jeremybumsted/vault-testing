@@ -2,7 +2,7 @@ steps:
   - label: ":go: :test_tube: Run tests"
     command: "./gotest.sh"
     plugins:
-      - buildkite-plugins/vault-secrets#update-vault-login:
+      - /Users/jeremy/dev/plugins/vault-secrets-buildkite-plugin#update-vault-login:
           server: "http://localhost:8200"
           path: buildkite/agent
           auth-method: approle

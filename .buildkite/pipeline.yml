@@ -3,7 +3,7 @@ steps:
     command: "./gotest.sh"
     plugins:
       - buildkite-plugins/vault-secrets#update-vault-login:
-          server: localhost
+          server: "http://localhost"
           path: buildkite/agent
           auth-method: approle
           role-id: buildkite-agent

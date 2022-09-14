@@ -4,7 +4,7 @@ steps:
     plugins:
       - /Users/jeremy/dev/plugins/vault-secrets-buildkite-plugin#update-vault-login:
           server: "http://localhost:8200"
-          path: buildkite/agent
+          path: secret/buildkite/agent
           auth-method: approle
           role-id: "293c201b-3693-7f52-a8da-44ea8a0ca2cd"
           secrets:

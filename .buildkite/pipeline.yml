@@ -1,4 +1,4 @@
-gsteps:
+steps:
   - label: ":go: :test_tube: Run tests"
     command: "./gotest.sh"
     plugins:

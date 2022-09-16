@@ -21,5 +21,4 @@ curl \
     -F "run_env[message]=$BUILDKITE_MESSAGE" \
     -F "run_env[url]=$BUILDKITE_BUILD_URL" \
     https://analytics-api.buildkite.com/v1/uploads
-
 rm junit.xml

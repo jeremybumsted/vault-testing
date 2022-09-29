@@ -2,7 +2,8 @@ steps:
   - label: ":go: :test_tube: Run tests"
     command: "./gotest.sh"
     plugins:
-      - vault-secrets#v0.2.1:
+      #- vault-secrets#v0.2.1:
+      - /Users/jeremy/dev/plugins/vault-secrets-buildkite-plugin#fix-secret-download:
           server: "http://localhost:8200"
           path: pipeline/vault-testing
           auth:

@@ -4,7 +4,7 @@ steps:
     plugins:
       - vault-secrets#v0.2.1:
           server: "http://localhost:8200"
-          path: secret/buildkite
+          path: pipeline/vault-testing
           auth:
             method: approle
             role-id: "f1596209-fe04-c947-7f69-af80268eb45e"

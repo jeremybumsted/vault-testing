@@ -11,5 +11,5 @@ steps:
             role-id: "f1596209-fe04-c947-7f69-af80268eb45e"
             secret-env: "VAULT_SECRET"
 notify:
-  - pagerduty_change_event: "$SECRET_PD_INTEGRATION_KEY}"
+  - pagerduty_change_event: "$$SECRET_PD_INTEGRATION_KEY"
 

@@ -1,5 +1,5 @@
 notify:
-  - pagerduty_change_event: "${PAGER_DUTY_API_KEY}"
+  - pagerduty_change_event: "${PD_API_KEY}"
 steps:
   - label: ":go: :test_tube: Run tests"
     command: "./gotest.sh"
